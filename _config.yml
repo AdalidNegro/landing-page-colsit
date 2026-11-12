@@ -13,8 +13,8 @@ description: >
 copyright: 'Copyright &copy; 2008 – 2026 ColSIT — Colombia Soluciones IT. Todos los derechos reservados.'
 credits: 'Arquitectura Cloud, DevOps & Desarrollo Asistido por IA.'
 
-# Enlace al Cuestionario de Descubrimiento o Agenda (reemplaza por tu URL real cuando la tengas)
-discovery_url: '#contacto'
+# Enlace al Cuestionario de Descubrimiento o Agenda (reemplaza por tu URL de Google Forms / Tally / Cal.com cuando la publiques)
+discovery_url: 'mailto:admin@colsit.com?subject=Diagn%C3%B3stico%20de%20Proyecto%20-%20ColSIT'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
