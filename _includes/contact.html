@@ -3,16 +3,20 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="col-lg-6">
-					<h2>Contáctanos:</h2>
+				<div class="col-lg-7">
+					<h2>¿Listo para llevar tu proyecto a producción?</h2>
+					<p class="lead" style="margin-top: 10px; margin-bottom: 0; font-size: 18px; font-weight: 400;">
+						Cuéntanos qué quieres construir o qué sistema necesitas estabilizar y recibe una propuesta clara a alcance cerrado.
+					</p>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-5 text-right" style="margin-top: 15px;">
 					<ul class="list-inline banner-social-buttons">
-						{% for social in site.social %}
 						<li>
-							<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+							<a href="{{ site.discovery_url }}" class="btn btn-primary btn-lg"><i class="fa fa-check-square-o fa-fw"></i> <span class="network-name">Cuestionario de Diagnóstico</span></a>
 						</li>
-						{% endfor %}
+						<li>
+							<a href="mailto:{{ site.email }}?subject=Diagn%C3%B3stico%20de%20Proyecto%20-%20ColSIT" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Escribir por Correo</span></a>
+						</li>
 					</ul>
 				</div>
 			</div>
