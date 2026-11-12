@@ -2,7 +2,9 @@
 layout: default
 img: ipad.png
 category: Services
-title: Arquitectura IT Escalable:<br>Construye sobre bases sólidas
+title: MVP Llave en Mano con IA
 description: |
 ---
-  Diseñamos infraestructuras tecnológicas que crecen con tu empresa. Optimizamos tus sistemas actuales para garantizar alta disponibilidad, seguridad y un rendimiento superior en cada proceso operativo.
+Transformamos tu idea de negocio o proceso interno en una aplicación web funcional y lista para operar en **semanas, no meses**. 
+
+Construimos sobre un stack moderno y probado (**Python/FastAPI, React/Next.js y PostgreSQL**), entregando avances verificables cada viernes en un ambiente de pruebas (staging). Incluye despliegue automatizado en la nube, certificados SSL, respaldos y arquitectura preparada para escalar sin tener que reescribir el código desde cero.
