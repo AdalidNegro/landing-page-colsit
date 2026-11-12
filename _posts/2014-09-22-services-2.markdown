@@ -1,8 +1,10 @@
 ---
 layout: default
-img: dog.png
+img: phones.png
 category: Services
-title: Transformación Digital<br>y Automatización
+title: IA Privada y Automatización Operativa
 description: |
 ---
- Ayudamos a tu organización a dar el salto hacia la digitalización. Implementamos herramientas de automatización de flujos de trabajo que reducen errores humanos y liberan el potencial de tu talento humano.
+Integramos Modelos de Lenguaje (LLMs) y flujos inteligentes directamente sobre los datos y documentos de tu empresa, con **control estricto de privacidad, costos y trazabilidad**.
+
+Desarrollamos asistentes internos, motores de extracción y análisis documental (`pgvector` / RAG), y automatizaciones de procesos operativos conectadas a tus sistemas actuales. Tú eliges si operar con APIs comerciales o modelos privados aislados, siempre con monitoreo de consumo y calidad.
