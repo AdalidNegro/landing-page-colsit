@@ -2,14 +2,19 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://colsit.com
-title: ColSIT
+url: https://colsit.com
+title: ColSIT — Software a Medida con IA & Ingeniería DevOps
 email: admin@colsit.com
 author: Said Fayad
-description: > # "Write an awesome description for your new site here. 
-  Soluciones de infraestructura IT y administración de servidores Linux. Especialista en optimización de sistemas, pipelines de CI/CD y seguridad en la nube para sectores financieros y retail.
-copyright: 'Copyright &copy; 2008 ColSIT . All Rights Reserved.'
-credits: 
+description: >
+  Boutique de ingeniería de software a medida impulsada por Inteligencia Artificial
+  y respaldada por 20 años de experiencia en DevOps, AWS y operación en producción.
+  Del concepto a producción segura en semanas, no meses.
+copyright: 'Copyright &copy; 2008 – 2026 ColSIT — Colombia Soluciones IT. Todos los derechos reservados.'
+credits: 'Arquitectura Cloud, DevOps & Desarrollo Asistido por IA.'
+
+# Enlace al Cuestionario de Descubrimiento o Agenda (reemplaza por tu URL real cuando la tengas)
+discovery_url: '#contacto'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -24,9 +29,9 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/adalid_negro
-  - title: github
-    url: https://github.com/adalidnegro
   - title: linkedin
     url: https://www.linkedin.com/company/colsit-sas/
+  - title: github
+    url: https://github.com/adalidnegro
+  - title: twitter
+    url: https://twitter.com/adalid_negro
