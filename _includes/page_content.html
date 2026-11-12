@@ -15,7 +15,7 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="{{ post.title }}">
                 </div>
             </div>
 
@@ -38,7 +38,7 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="{{ post.title }}">
                 </div>
             </div>
 
@@ -49,4 +49,43 @@
     <!-- /.content-section-b -->
     {% endif %}
 {% endfor %}
+
+    <!-- Flujo de Trabajo Transparente (Rutas A y B) -->
+    <div class="content-section-b" id="metodologia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <hr class="section-heading-spacer" style="float: none; margin: 0 auto 20px auto;">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cómo trabajamos: Claridad desde el día uno</h2>
+                    <p class="lead">Sin contratos abiertos ni cajas negras. Definimos el camino exacto según el estado actual de tu proyecto:</p>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well">
+                        <h3><i class="fa fa-compass text-primary"></i> Ruta A: Construcción Nueva (MVP / IA)</h3>
+                        <p><strong>Ideal si tienes una idea validada o un proceso por automatizar.</strong></p>
+                        <ol class="lead" style="font-size: 16px; line-height: 1.7;">
+                            <li><strong>Cuestionario y Alcance Cerrado:</strong> Definimos funcionalidades clave, arquitectura y precio fijo antes de escribir una línea de código.</li>
+                            <li><strong>Entregables Semanales en Staging:</strong> Cada viernes revisas avances reales funcionando en un entorno de pruebas.</li>
+                            <li><strong>Salida a Producción y Continuidad:</strong> Despliegue seguro en AWS con opción de mantenimiento y evolución mensual.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well">
+                        <h3><i class="fa fa-wrench text-primary"></i> Ruta B: Rescate &amp; Estabilización DevOps</h3>
+                        <p><strong>Ideal si ya tienes un sistema activo con fallos, lentitud o deuda técnica.</strong></p>
+                        <ol class="lead" style="font-size: 16px; line-height: 1.7;">
+                            <li><strong>Auditoría Técnica Rápida:</strong> Revisamos código, infraestructura, seguridad, costos cloud y puntos críticos de falla.</li>
+                            <li><strong>Plan de Remediación Priorizado:</strong> Estabilizamos lo urgente primero (despliegues, respaldos, monitoreo y cuellos de botella).</li>
+                            <li><strong>Operación Confiable:</strong> Automatizamos CI/CD y dejamos observabilidad activa para evitar caídas futuras.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
