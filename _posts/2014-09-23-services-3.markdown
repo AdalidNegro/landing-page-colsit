@@ -1,8 +1,10 @@
 ---
 layout: default
-img: phones.png
+img: dog.png
 category: Services
-title: Ciberseguridad Avanzada:<br>Protege tu activo más valioso
+title: Rescate & Modernización DevOps
 description: |
 ---
-La información es el corazón de tu empresa. Implementamos protocolos de seguridad multicapa y planes de recuperación ante desastres para que tu negocio nunca se detenga, pase lo que pase.
+¿Tienes una aplicación crítica que se cae, un prototipo generado con IA que no logra salir a producción o costos de nube fuera de control? Ponemos orden técnico con **20 años de rigor en infraestructura**.
+
+Auditamos tu arquitectura, estandarizamos despliegues con **CI/CD (GitHub Actions / ArgoCD)**, definimos infraestructura como código en **AWS (Terraform / OpenTofu)** e implementamos observabilidad real (**Prometheus + Grafana**) para que tu operación sea estable, predecible y auditable.
